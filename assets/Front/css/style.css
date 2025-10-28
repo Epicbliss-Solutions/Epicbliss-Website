@@ -618,7 +618,7 @@ fieldset {
     font-weight: 600;
     background-size: 200%;
     transition: 0.6s;
-    background-image: linear-gradient(to left, #4d88ff, #0879ED, #4d88ff);
+    background-image: linear-gradient(to left,#ffffff, #f0f0f0, #ffffff);
     background-position: right;
 }
 .btn:hover {
