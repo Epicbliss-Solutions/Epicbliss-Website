@@ -201,7 +201,7 @@ fieldset {
 }
 
 #scrollUp, #back-top {
-    background: #FD8F5F;
+    background: #4d88ff;
     height: 60px;
     width: 60px;
     right: 31px;
@@ -1090,7 +1090,7 @@ a.read-more:hover {
 
     .card-action:hover {
         color: #fff;
-        background: #E26D5C;
+        background: #4d88ff;
         -webkit-animation: pulse 1.5s infinite;
     }
 
