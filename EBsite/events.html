@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <title>Epicbliss - Events</title>
+    <link rel="icon" type="image/x-icon" href="https://www.epicbliss.tech/assets/Front/img/Favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Lightbox CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+<style>
+    .owl-carousel {
+    position: relative;
+}
+
+/* Ensure carousel items display properly */
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons Container */
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-50%);
+    pointer-events: none; /* Keep container non-interactive */
+    z-index: 10;
+}
+
+/* Navigation Buttons */
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+    pointer-events: auto; /* Allow clicking */
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 11;
+    transition: all 0.3s ease;
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* On Hover */
+.owl-nav button.owl-prev:hover,
+.owl-nav button.owl-next:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Position Arrows */
+.owl-nav button.owl-prev {
+    position: absolute;
+    left: -60px;
+}
+
+.owl-nav button.owl-next {
+    position: absolute;
+    right: -60px;
+}
+
+/* Arrow Symbols */
+.owl-nav button.owl-prev::before {
+    content: "‹";
+    font-size: 40px;
+    line-height: 1;
+}
+
+.owl-nav button.owl-next::before {
+    content: "›";
+    font-size: 40px;
+    line-height: 1;
+}
+
+/* Hide Default Text */
+.owl-nav button span {
+    display: none;
+}
+
+/* Hide Dots */
+.owl-dots {
+    display: none !important;
+}
+button:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+/* Responsive Arrows */
+@media (max-width: 768px) {
+    .owl-nav button.owl-prev {
+        left: 5px;
+    }
+
+    .owl-nav button.owl-next {
+        right: 5px;
+    }
+
+    .owl-nav button.owl-prev,
+    .owl-nav button.owl-next {
+        font-size: 24px !important;
+        padding: 5px !important;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+        <!-- LOGO OUTSIDE CONTAINER -->
+        <div class="top-left-logo">
+            <img src="assets/images/Epicbliss Logo.png" alt="EB" style="height: 60px; width: auto;" />
+        </div>
+
+        <!-- CONTAINER WITH CENTERED CONTENT -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <ul class="left-info">
+                        <!-- Remove logo here if duplicated -->
+                        <li>
+                            <a href="index.html">Epicbliss Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-icons">
+                        <li><a href="https://www.linkedin.com/company/epicbliss-solutions/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a href="mailto:info@epicbliss.tech"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="index.html#who-are-we">About Us</a>
+                        </li>
+                        <li class="nav-item" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item" style="height: 90px; width: 144px; align-items: center;">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main>
+        <div class="page-heading header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Events</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="foundation-day" class="py-5 bg-light">
+            <div class="container">
+                <div class="section-heading text-center mb-4">
+                    <h2>3 Years <em>Foundation Day Celebration</em></h2>
+                </div>
+                <div class="owl-carousel owl-theme foundation-carousel">
+                    <div class="item">
+                        <a href="./assets/images/events/F1.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F1.jpg" alt="F1" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F2.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F2.jpg" alt="F2" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F3.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F3.jpg" alt="F3" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F4.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F4.jpg" alt="F4" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F5.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F5.jpg" alt="F5" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F6.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F6.jpg" alt="F6" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="./assets/images/events/F7.jpg" data-lightbox="foundation">
+                            <img src="./assets/images/events/F7.jpg" alt="F7" class="img-fluid rounded">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-heading text-center my-5">
+                    <h2>Office <em>Space</em></h2>
+                </div>
+                <div class="owl-carousel office-carousel owl-theme">
+                    <div class="item"><a href="./assets/images/events/office.jpg" data-lightbox="office"><img src="./assets/images/events/office.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/officespace.jpg" data-lightbox="office"><img src="./assets/images/events/officespace.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/Ravi.jpg" data-lightbox="office"><img src="./assets/images/events/Ravi.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/Team Photo.jpg" data-lightbox="office"><img src="./assets/images/events/Team Photo.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/Team Photo_1.png" data-lightbox="office"><img src="./assets/images/events/Team Photo_1.png" class="img-fluid rounded"></a></div>
+                </div>
+
+                <div class="section-heading text-center my-5">
+                    <h2>Team <em>Lunch</em></h2>
+                </div>
+                <div class="owl-carousel lunch-carousel owl-theme">
+                    <div class="item"><a href="./assets/images/events/l1.jpg" data-lightbox="lunch"><img src="./assets/images/events/l1.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/l2.jpg" data-lightbox="lunch"><img src="./assets/images/events/l2.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/l3.jpg" data-lightbox="lunch"><img src="./assets/images/events/l3.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/l4.jpg" data-lightbox="lunch"><img src="./assets/images/events/l4.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/SB1.jpg" data-lightbox="lunch"><img src="./assets/images/events/SB1.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/SB2.jpg" data-lightbox="lunch"><img src="./assets/images/events/SB2.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/SB3.jpg" data-lightbox="lunch"><img src="./assets/images/events/SB3.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/SB4.jpg" data-lightbox="lunch"><img src="./assets/images/events/SB4.jpg" class="img-fluid rounded"></a></div>
+                </div>
+
+                <div class="section-heading text-center my-5">
+                    <h2>Team <em>Outings</em></h2>
+                </div>
+                <div class="owl-carousel outing-carousel owl-theme">
+                    <div class="item"><a href="./assets/images/events/ss1.jpg" data-lightbox="outing"><img src="./assets/images/events/ss1.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/ss2.jpg" data-lightbox="outing"><img src="./assets/images/events/ss2.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/ss5.jpg" data-lightbox="outing"><img src="./assets/images/events/ss5.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/ss6.jpg" data-lightbox="outing"><img src="./assets/images/events/ss6.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/ss8.jpg" data-lightbox="outing"><img src="./assets/images/events/ss8.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/A1.jpg" data-lightbox="outing"><img src="./assets/images/events/A1.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/A2.jpg" data-lightbox="outing"><img src="./assets/images/events/A2.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/A3.jpg" data-lightbox="outing"><img src="./assets/images/events/A3.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/A4.jpg" data-lightbox="outing"><img src="./assets/images/events/A4.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/A5.jpg" data-lightbox="outing"><img src="./assets/images/events/A5.jpg" class="img-fluid rounded"></a></div>
+                </div>
+
+                <div class="section-heading text-center my-5">
+                    <h2>Diwali <em>Celebrations</em></h2>
+                </div>
+                <div class="owl-carousel diwali-carousel owl-theme">
+                    <div class="item"><a href="./assets/images/events/diwali1.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali1.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali2.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali2.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali3.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali3.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali4.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali4.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali5.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali5.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali6.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali6.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali7.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali7.jpg" class="img-fluid rounded"></a></div>
+                    <div class="item"><a href="./assets/images/events/diwali8.jpg" data-lightbox="diwali"><img src="./assets/images/events/diwali8.jpg" class="img-fluid rounded"></a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <div class="owl-partners owl-carousel">
+                        <div class="partner-item">
+                            <img src="assets/images/client-01.png" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-item">
+                    <h4>Useful Links</h4>
+                    <p>Reach us out from the below links.</p>
+                    <ul class="social-icons">
+                        <li><a href="mailto:info@epicbliss.tech"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/epicbliss-solutions/"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="skype:epicbliss.tech?chat"><i class="fa fa-headphones"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-item">
+                    <h4>Visit Us</h4>
+                    <ul class="menu-list">
+                        <li>
+                            <strong>India:</strong><br>
+                            1110, Ganesh Glory, Jagatpur Road, Off. SG Highway,<br>
+                            Near Nirma University, Ahmedabad, Gujarat 382481
+                        </li>
+                        <li>
+                            <strong>USA:</strong><br>
+                            205, Henly Pl, Duluth, GA 30097
+                        </li>
+                        <li>
+                            <strong>Canada:</strong><br>
+                            805 Yates Dr, Milton, ON L9T 0E6
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 footer-item last-item">
+                    <h4>Contact Us</h4>
+                    <p>Eager to know more? Drop a note; how can we help you today?</p>
+                    <div class="contact-form">
+                        <form id="contact footer-contact" action="" method="post">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="name" type="text" class="form-control" id="name"
+                                            placeholder="Full Name" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="email" type="text" class="form-control" id="email"
+                                            pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea name="message" rows="6" class="form-control" id="message"
+                                            placeholder="Your Message" required=""></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="filled-button">Send
+                                            Message</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2025 Epicbliss Solutions
+
+                        <a rel="nofollow noopener" href="https://templatemo.com" target="_blank"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (required for Owl and Lightbox) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // Initialize all carousels with improved settings
+            $('.foundation-carousel, .office-carousel, .lunch-carousel, .outing-carousel, .diwali-carousel').owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: true,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplaySpeed: 800,
+                navSpeed: 800,
+                autoplayHoverPause: true,
+                smartSpeed: 800,
+                responsive: {
+                    0: { 
+                        items: 1,
+                        margin: 10
+                    },
+                    576: { 
+                        items: 2,
+                        margin: 15
+                    },
+                    768: { 
+                        items: 3,
+                        margin: 15
+                    },
+                    992: { 
+                        items: 4,
+                        margin: 20
+                    }
+                }
+            });
+
+            // Lightbox options
+            lightbox.option({
+                resizeDuration: 200,
+                wrapAround: true,
+                disableScrolling: true
+            });
+
+            // Observe Lightbox open/close and toggle scroll
+            const observer = new MutationObserver(() => {
+                const overlay = document.querySelector('.lightboxOverlay');
+                const displayStyle = overlay?.style?.display;
+
+                if (displayStyle === 'block') {
+                    // Lightbox is open
+                    document.body.classList.add('lb-disable-scroll');
+                } else {
+                    // Lightbox closed
+                    setTimeout(() => {
+                        const checkAgain = document.querySelector('.lightboxOverlay');
+                        const isClosed = !checkAgain || checkAgain.style.display === 'none';
+                        if (isClosed) {
+                            document.body.classList.remove('lb-disable-scroll');
+                        }
+                    }, 1);
+                }
+            });
+
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true,
+                attributes: true,
+                attributeFilter: ['style']
+            });
+        });
+    </script>
+
+</body>
+
+</html>
